@@ -46,25 +46,8 @@ $$X_k = \sum_{n=0}^N x_n e^{\frac{2i\pi nk}{N}}$$
 3.  **IFFT:** Transform the result back using Inverse FFT.
 
 **Result:** The complexity drops to **$O(N^2 \log N)$**, offering massive speedups for large-scale operations.
-## 📂 Project Structure
 
-```bash
-Tumor-Detection-Optimization-using-FFT/
-├── src/
-│   ├── layers/
-│   │   ├── convolution.py    # Manual Conv Layer (Spatial & FFT implementations)
-│   │   ├── pooling.py        # Max Pooling Layer
-│   │   └── dense.py          # Fully Connected Layer
-│   ├── utils/
-│   │   └── fft_handler.py    # FFT and IFFT helper functions
-│   └── network.py            # Neural Network Assembler
-├── notebooks/
-│   ├── 1_Polynomial_Benchmark.ipynb  # Proof of Concept (1D)
-│   └── 2_Tumor_Detection_Training.ipynb
-├── dataset/                  # MRI Brain Tumor Dataset
-├── README.md
-└── requirements.txt
-```
+
 ## 🚀 Getting Started
 
 ## Prerequisites
