@@ -60,7 +60,7 @@ $$X_k = \sum_{n=0}^N x_n e^{\frac{2i\pi nk}{N}}$$
 
 1. Clone the repo
 ```sh
-git clone [https://github.com/yourusername/Tumor-Detection-Optimization-using-FFT.git](https://github.com/yourusername/Tumor-Detection-Optimization-using-FFT.git)
+git clone https://github.com/yourusername/Tumor-Detection-Optimization-using-FFT.git
 ```
 
 2. Download the required packages
